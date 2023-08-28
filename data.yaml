@@ -1,0 +1,13 @@
+train: C:\Users\ebint\OneDrive\Desktop\Potholes Segmentation_OpenVINO.v2i.yolov8\train
+val: C:\Users\ebint\OneDrive\Desktop\Potholes Segmentation_OpenVINO.v2i.yolov8\valid
+test: C:\Users\ebint\OneDrive\Desktop\Potholes Segmentation_OpenVINO.v2i.yolov8\test
+
+nc: 1
+names: ['Pothole']
+
+roboflow:
+  workspace: school-gzmm8
+  project: potholes-segmentation_openvino
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-gzmm8/potholes-segmentation_openvino/dataset/2
